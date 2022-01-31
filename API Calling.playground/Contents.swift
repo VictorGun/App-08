@@ -15,3 +15,8 @@ infreneceDictionary[2] = "New"
 infreneceDictionary[4] = "D"
 infreneceDictionary.updateValue("f", forKey: 2)
 infreneceDictionary
+
+if let value = infreneceDictionary[1]
+{
+    print(value)
+}
